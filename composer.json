@@ -3,7 +3,7 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Zubair\\CredoSdkTest\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
@@ -12,5 +12,8 @@
             "email": "zubairidrisaweda@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "credoteam/credo": "dev-main"
+    },
+    "minimum-stability": "dev"
 }
