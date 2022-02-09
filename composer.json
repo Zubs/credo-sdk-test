@@ -1,0 +1,16 @@
+{
+    "name": "zubair/credo-sdk-test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Zubair\\CredoSdkTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zubs",
+            "email": "zubairidrisaweda@gmail.com"
+        }
+    ],
+    "require": {}
+}
