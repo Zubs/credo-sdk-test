@@ -9,6 +9,9 @@ class Environment
 {
     protected string $path = __DIR__ . '/../.env';
 
+    /**
+     * @param string $path Path to .env file to be loaded
+     */
     public function __construct(string $path)
     {
         if ($path) {
@@ -17,6 +20,8 @@ class Environment
             }
 
             $this->path = $path;
+
+            $this->load();
         }
     }
 
