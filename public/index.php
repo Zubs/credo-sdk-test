@@ -7,6 +7,7 @@ use App\Environment;
 
 // Load .env variables
 $environment = new Environment('');
+$environment->load();
 
 $data = [
     "amount"=> 3000,

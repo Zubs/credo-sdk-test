@@ -20,8 +20,6 @@ class Environment
             }
 
             $this->path = $path;
-
-            $this->load();
         }
     }
 
